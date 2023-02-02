@@ -50,11 +50,11 @@ int main(void)
         // @TODO You will need to modify this code to change between blinking the Red LED or the Green LED
         if (ToggleEnable) {
             P1OUT ^= BIT0;                  // P1.0 = toggle
-            P6OUT &= ~BIT6;
+            P6OUT &= ~BIT6;                 // Set P6.6 to 0
         }
         else {
             P1OUT &= ~BIT0;                 // Set P1.0 to 0
-            P6OUT ^= BIT6;
+            P6OUT ^= BIT6;                  // P6.6 = toggle
         }
         __delay_cycles(100000);
     }
