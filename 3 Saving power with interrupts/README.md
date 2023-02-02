@@ -84,6 +84,6 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 1.) The polling example has a higher baseline in comparison to the interrupts example. This is because the polling code is continuously running, when the interrupt is only running when the button is pressed. 
 
-2.) 
+2.) Even with the LED unplugged, there is still power increases when the button is pressed because of the pull down resistor. 
 
 
