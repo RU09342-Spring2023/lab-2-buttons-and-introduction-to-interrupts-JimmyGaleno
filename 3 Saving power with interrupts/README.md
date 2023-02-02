@@ -77,3 +77,13 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 # Screenshots and Answers to Questions
 **Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+
+![image](https://user-images.githubusercontent.com/123121216/216459955-c670be07-e00a-43c2-b34e-6d55d79b13de.png)   Polling
+
+![image](https://user-images.githubusercontent.com/123121216/216460298-eb4e5d8c-5ef8-48ca-998c-01ac1879f3cc.png)   Interuppts 
+
+1.) 
+
+2.) 
+
+
